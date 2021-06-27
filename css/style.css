@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+nav .logo {
+    width: 30%;
+    display: inline-block;
+}
+nav ul {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+}
+nav ul li :hover {
+    border-bottom: 2px solid #ffffff;
+}
+nav ul li a {
+    color: blanchedalmond;
+    font-size: 20px;
+    text-decoration: none; 
+}
+#hero {
+    text-align: center;
+    padding-top: 120px;
+}
+#hero img {
+    transition: .3s;
+}
+#hero img:hover {
+    transform: scale(1.2) rotate(-360deg);
+    transition: .3s;
+}
+#hero h2 {
+    font-size: 60px;
+    color: #ff82ff;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+#hero p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+#hero button {
+    background: #631843 ;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: #999999;
+    border-radius: 60px;
+    border: 0 transparent;
+    margin-top: 70px;
+    transition: .3s;
+}
+/* HOVER ES PARA ANIMACIONES */
+#hero button:hover {
+    transform: scale(.8);
+    color: #631843;
+    background: #ffffff;
+    transition: .3s;
+}
+#planes {
+    width: 100%;
+    background: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#planes .container h2 {
+    font-size: 40px;
+}
+
+#planes .container p {
+    font-size: 20px;
+}
+
+#planes .container .row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+#planes .container .row .item_planes {
+    position: relative;
+}
+
+#planes .container .row .item_planes h2 {
+   color: #030003;
+   font-size: 25px;
+   position: absolute;
+   top: 100px;
+   right: 0;
+   left: 0;
+}
+
+#destinos{
+    width: 100%;
+    background: url(../img/bg-destinos.png);
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-size: cover;
+ 
+}
+
+#destinos .container h2{
+    color: #ff82ff;
+    font-size: 40px;
+}
+#destinos .container .row_1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+#destinos .container .row_2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+#destinos .container p{
+    color: #ffffff;
+    font-size: 25px;
+}
+/* inicio estilo de contactos */
+#contacto{
+    color: #ffffff;
+    background-color: #631843;
+    text-align: center; 
+    width: 100%;   
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+#contacto h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#contacto p{
+    font-size: 22px;
+}
+#contacto .container .row .campo-f{
+    width: 300px;
+    padding: 8px 14px;
+    margin: 10px 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 1px solid #999999;
+}
+#contacto .container .row select{
+    width: 300px !important;
+    color: #757575;
+}
+#contacto .container form button{
+    background-color: #ff31cf;
+    color: #ffffff;
+    padding: 12px 60px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 0;
+}
+/* inicio de pe de gagina */
+footer{
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+    padding: 60px 0 80px;
+    font-size: 22px;
+}
